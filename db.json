@@ -1,0 +1,20 @@
+{
+  "students": [
+    {
+      "id": "828c",
+      "fullname": "sindhu",
+      "phoneNumber": "7036565387",
+      "email": "sindhu09.dev@gmail.com",
+      "course": "angular",
+      "remarks": "xcvbnm"
+    },
+    {
+      "fullname": "keerthi",
+      "phoneNumber": "9959278139",
+      "email": "keerthi.dev@gmail.com",
+      "course": "pfofess",
+      "remarks": "dfgcvbn",
+      "id": "f297"
+    }
+  ]
+}

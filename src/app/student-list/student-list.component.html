@@ -1,0 +1,29 @@
+<div class="p-5">
+    <table class="table table-stripped table-success table-hover">
+        <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Course</th>
+                <th>Remarks</th>
+                <th>Options</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let x of students">
+                <td>{{x.fullname}}</td>
+                <td>{{x.phoneNumber}}</td>
+                <td>{{x.email}}</td>
+                <td>{{x.course}}</td>
+                <td>{{x.remarks}}</td>
+                <td>
+                    <button (click)="deleteStudent(x.id)">Delete</button>
+                    <button class="ms-3" (click)="editStudent(x)">Edit</button>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+
+</div>
